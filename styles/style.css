@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'Neue Regrade';
+    src: url('../fonts/Neue-Regrade-Regular-BF65af35d81f2ff.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color-scheme: light;
+}
+
+body {
+    font-family: 'Neue Regrade', sans-serif;
+}
+
+/* fonts */
+.inter {
+    font-family: "Inter", sans-serif;
+}
+
+
+/* ****************************** Navbar ********************************* */
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    z-index: 10;
+    margin-top: 35px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 77px 0 77px;
+    /* border: solid 1px black; */
+}
+
+.logo-and-name {
+    display: flex;
+    flex-direction: row;
+    gap: 0 0.5rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 0 4rem;
+    cursor: pointer;
+    color: white;
+}
+/* *************************************************************************** */
+
+
+/* *************************** First section ********************************** */
+.first-section {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background: linear-gradient(239.13deg, #0083A2 0.11%, #006086 38.08%, #092742 85.9%);
+}
+
+.first-section > div {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0px 200px;
+    margin-top: 8rem;
+    margin-left: 5.5rem;
+    border: none;
+    border-color: black;
+}
+
+.left-side-content {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-top: 2.5rem;
+    width: 450px;
+    /* border: solid 1px black; */
+}
+
+.left-side-content > h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    line-height: 2.65rem;
+}
+
+.left-side-content div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    line-height: 1.25rem;
+}
+
+.left-side-content button {
+    display: flex;
+    text-align: left;
+    font-weight: 700px;
+    width: fit-content;
+    padding: 0.5rem 2.5rem;
+    margin-top: 2rem;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    border: solid 1.5px white;
+    border-radius: 0.75rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+/* *********************** End ************************* */
+
+/* ******************** Waitlist form ********************** */
+.waitlist {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 176px;
+    width: 70%;
+    background-color: white;
+    border-radius: 0.75rem;
+}
+
+/* Form title */
+.form-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: solid 1px black;  */
+}
+
+.form-title > h1 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.form-title > button {
+    color: #006DAA;
+    margin-bottom: 0.25rem;
+    background-color: #05A7ED78;
+    font-size: 12px;
+    padding: 0.5px 9.5px;
+    border-radius: 4px;
+    border: none;
+}
+/* ********************* */
+
+/* Inputs */
+.first-last input,
+.mail-password input {
+    border: solid 1px #A5A5A5;
+    font-size: 12px;
+    width: 60%;
+    outline: none;
+    padding: 0.475rem 0.875rem;
+    border-radius: 4px;
+}
+
+.waitlist > button {
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem 30%;
+    font-size: 14px;
+    color: white;
+    border: solid 1px black;
+    background-color: black;
+    border-radius: 40px;
+}
