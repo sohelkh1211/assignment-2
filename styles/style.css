@@ -55,9 +55,15 @@ ul {
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 0 4rem;
     cursor: pointer;
     color: white;
+}
+
+.join {
+    display: none;
 }
 /* *************************************************************************** */
 

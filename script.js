@@ -14,3 +14,14 @@ document.addEventListener('scroll', function () {
         logoElement.setAttribute('src', "./assets/logo1.png");
     }
 });
+
+document.addEventListener('scroll', function () {
+    const scrollPosition = window.scrollY;
+    const joinElement = document.querySelector('.join');
+
+    if(scrollPosition > 400) {
+        joinElement.classList.add('join-scrolled');
+    } else {
+        joinElement.classList.remove('join-scrolled');
+    }
+})
