@@ -45,31 +45,93 @@
                 </div>
                 <!-- Paragraph  -->
                 <div style="display: flex; margin-top: 1rem;">
-                    <p class="inter" style="color: #8C8C8C; font-size: 11px; width: 260px;">Join our waitlist and be part of our Beta
+                    <p class="inter" style="color: #8C8C8C; font-size: 11px; width: 260px;">Join our waitlist and be
+                        part of our Beta
                         Program. Our team will reach out within 48 hours to guide you through onboarding and tailor our
                         holistic platform to your unique needs</p>
                 </div>
                 <!-- First and last name inputs -->
                 <div class="first-last" style="display: flex; flex-direction: row; gap: 0 1rem; margin-top: 1.5rem;">
-                    <input name="first_name" type="text" placeholder="First name"
-                        class="inter" />
-                    <input name="last_name" type="text" placeholder="Last name"
-                        class="inter" />
+                    <input name="first_name" type="text" placeholder="First name" class="inter" />
+                    <input name="last_name" type="text" placeholder="Last name" class="inter" />
                 </div>
                 <!-- Email and password -->
                 <div class="mail-password" style="display: flex; flex-direction: column; margin-top: 1rem;">
                     <input placeholder="E-mail" name="mail" type="email" class="inter" style="width: 100%;" />
-                    <input placeholder="Phone" name="phone" type="number" class="inter" style="margin-top: 1rem; width: 100%;" />
+                    <input placeholder="Phone" name="phone" type="number" class="inter"
+                        style="margin-top: 1rem; width: 100%;" />
                 </div>
-                <button class="inter" >Join now</button>
+                <button class="inter">Join now</button>
             </div>
         </div>
     </section>
 
-    <section>
-        
+    <!-- Features section -->
+    <section id="features">
+        <div>
+            <!-- Features title -->
+            <div class="feature-title">
+                <hr style="border-color: #266EA3; border-width: 1px; width: 5%; margin-left: 47.8%;" />
+                <p style="color: #266EA3; text-align: center;">Features</p>
+                <p class="inter" style="font-size: 34px; font-weight: 700; text-align: center;">The Future of Clinical Management is Here Explore
+                    Our Innovative Features</p>
+            </div>
+
+            <!-- Infinite scroller -->
+            <div class="scroller card-holder" data-animated="true">
+
+                <!-- Notes -->
+                <div style="width: 20%; background-color: #FFE3AA;">
+                    <img src="./assets/notes.png" style="width: 20%;" />
+                    <p style="color: #CE7C00; margin-top: 0.5rem; width: 40%; text-align: center;">AI-Powered Notes Taking</p>
+                </div>
+
+                <!-- Care -->
+                <div style="width: 20%; background-color: #BAFFBB;">
+                    <img src="./assets/care.png" style="width: 20%;" />
+                    <p style="color: #008880; margin-top: 0.5rem; width: 60%; text-align: center;">AI-Enabled Insights for Personalized Care</p>
+                </div>
+
+                <!-- portfolio -->
+                <div style="width: 20%; background-color: #E3BAFF;">
+                    <img src="./assets/portfolio.png" style="width: 25%; margin-top: 1rem;" />
+                    <p style="color: #5C0088; margin-top: 1rem; width: 70%; align-items: center;">Custom Portfolio Website & Curated Social Media Content</p>
+                </div>
+
+                <!-- workflow -->
+                <div style="width: 20%; background-color: #BAE6FF;">
+                    <img src="./assets/workflow.png" style="width :20%" />
+                    <p style="color: #004F88; margin-top: 0.5rem; width: 60%; text-align: center;">Streamlined Workflow & Reduced Burnout</p>
+                </div>
+
+                <!-- Analytics -->
+                <div style="width: 20%; background-color: #FFBABE">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52" id="analytics" style="width: 20%">
+                        <g fill="none" stroke="#880049" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4">
+                            <path d="M2 3.355v45.29h48"></path>
+                            <path d="m6.881 40.881 14.273-15.47 7.167 7.767 18.676-20.244"></path>
+                            <path d="M46.997 19.668v-6.734h-6.213"></path>
+                        </g>
+                    </svg>
+                    <p style="color: #880049; margin-top: 0.5rem; width: 60%; text-align: center;">Practice Analytics & Insights</p>
+                </div>
+            </div>
+
+            <!-- Core problem -->
+            <div class="core">
+                <ul style="list-style-type: disc;">
+                    <li class="inter" style="font-weight: 600; color: black; margin-left: 1rem;">The Core Problem That We Are Trying To Solve</li>
+                </ul>
+                <h1>Therapists are
+                    overwhelmed by administrative tasks & Notes documentation struggle to attract and retain clients and
+                    lack the tools to deliver personalised, efficient care. </h1>
+                <p style="margin-top: 2.25rem; color: #0000008C; font-weight: 700;">This hinders their ability to reach a wider
+                    population seeking mental health services and maximise their earning potential.</p>
+            </div>
+        </div>
     </section>
 
+    <script src="./script.js"></script>
 </body>
 
 </html>
