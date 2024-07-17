@@ -235,6 +235,7 @@ ul {
 .core {
     display: flex;
     flex-direction: column;
+    align-items: start;
     margin-top: 15rem;
     padding: 7% 16%;
     background-color: #CAE6F4;
